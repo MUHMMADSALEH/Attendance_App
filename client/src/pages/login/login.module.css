@@ -1,0 +1,44 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.subContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+   background-color: rgb(172, 243, 172);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+
+   
+
+
+}
+.input{
+    padding: 10px;
+   width: 200px;
+   border-radius: 7px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn:active{
+    font-size: 13px;
+}
